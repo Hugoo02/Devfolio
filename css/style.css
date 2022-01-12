@@ -552,4 +552,47 @@ Single Page
 .page-info a:hover {
   color: var(--clr-primary-1);
 }
-/*
+
+body.gray {
+  background: gray;
+}
+body.white {
+  background: white;
+}
+body.blue {
+  background: var(--light-navy);
+}
+body.yellow {
+  background: yellow;
+}
+
+#switcher {
+  list-style: none;
+  margin: 40px;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+#switcher li {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin: 0 15px 15px 0;
+  border-radius: 30px;
+  border: 3px solid black;
+
+}
+
+#grayButton {
+  background: gray;
+}
+#whiteButton {
+  background: white;
+}
+#blueButton {
+  background: blue;
+}
+#yellowButton {
+  background: yellow;
+}
